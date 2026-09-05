@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260902-06-6f520ec","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFLd8sKbwc,2","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Libre Baskerville":"YACgEUFdPdA,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YADLjI9qxTA,0","Nunito":"YACgEX8C5Gg,0","Oleo Script":"YACgEQQ14jI,0","Phantom Sans":"YAHO2E8Pb88,0","Playfair Display":"YACgEYmuCJE,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YADWjpfPmdk,0","Raleway":"YACgEVg3xZg,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Ubuntu":"YACgERDU--Q,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YADlN8CFZ8Q,0","ui-sans-serif":"YACkoN-xg4g,0"}}');</script><script src="/_sdk/50d846425a1e5082.telemetry_sdk.js" integrity="sha512-Otbex+ztlVbcEGql0rXGd/3E3ee/hqAntg6DeuUEMG6pIPbXGOSvZbFZVzknAXi1tH/itQ+ijEhOTr2aWj6CXg=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LM Prints | Printing Services</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #2d1744;
+      --purple: #5b2c91;
+      --purple-dark: #472271;
+      --purple-mid: #8755b4;
+      --lavender: #f3e9ff;
+      --mist: #fcfaff;
+      --line: #e5d3f7;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      width: 100%;
+      margin: 0;
+      overflow-x: hidden;
+      font-family: "Poppins", sans-serif;
+      color: var(--ink);
+    }
+
+    section { scroll-margin-top: 80px; }
+
+    .page-shell {
+      width: 100%;
+      min-height: 100%;
+      background: var(--mist);
+    }
+
+    .nav-shell {
+      background: rgba(255, 255, 255, 0.9);
+      border-bottom: 1px solid rgba(229, 211, 247, 0.9);
+      backdrop-filter: blur(14px);
+    }
+
+    .brand-stamp {
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 17px;
+      color: #fff;
+      background: linear-gradient(145deg, #5b2c91, #a16bc7);
+      box-shadow: 0 10px 24px rgba(91, 44, 145, 0.26);
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: -0.08em;
+    }
+
+    .nav-link {
+      color: #5a3d72;
+      font-size: 0.88rem;
+      font-weight: 700;
+      transition: color 180ms ease;
+    }
+
+    .nav-link:hover { color: var(--purple); }
+
+    .hero-field {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 8% 10%, rgba(199, 166, 234, 0.72), transparent 27%),
+        radial-gradient(circle at 91% 85%, rgba(172, 110, 212, 0.3), transparent 31%),
+        linear-gradient(135deg, #fdfaff 0%, #f2e5ff 56%, #e8d1fb 100%);
+    }
+
+    .dot-layer {
+      background-image: radial-gradient(rgba(91, 44, 145, 0.18) 1px, transparent 1px);
+      background-size: 19px 19px;
+    }
+
+    .hero-orb {
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+    }
+
+    .floating-tile {
+      display: grid;
+      position: absolute;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.92);
+      border-radius: 19px;
+      color: var(--purple);
+      background: rgba(255, 255, 255, 0.7);
+      box-shadow: 0 14px 34px rgba(91, 44, 145, 0.13);
+      animation: float 5s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    .printer-scene {
+      position: relative;
+      min-height: 325px;
+      border: 8px solid rgba(255, 255, 255, 0.82);
+      border-radius: 33px;
+      background:
+        linear-gradient(150deg, rgba(255,255,255,0.93), rgba(237,216,255,0.95)),
+        #f5eaff;
+      box-shadow: 0 26px 60px rgba(72, 29, 111, 0.2);
+      transform: rotate(2deg);
+      overflow: hidden;
+    }
+
+    .printer-scene::before {
+      content: "";
+      position: absolute;
+      width: 210px;
+      height: 210px;
+      right: -35px;
+      top: -45px;
+      border-radius: 50%;
+      background: rgba(162, 105, 200, 0.2);
+    }
+
+    .printer-paper {
+      position: absolute;
+      left: 50%;
+      top: 58px;
+      width: 152px;
+      height: 126px;
+      border: 4px solid #a875cd;
+      border-radius: 13px;
+      background: #fff;
+      transform: translateX(-50%);
+      box-shadow: 0 11px 20px rgba(91, 44, 145, 0.13);
+    }
+
+    .printer-paper::before,
+    .printer-paper::after {
+      content: "";
+      position: absolute;
+      left: 22px;
+      right: 22px;
+      height: 7px;
+      border-radius: 10px;
+      background: #e2cef4;
+    }
+
+    .printer-paper::before { top: 31px; }
+    .printer-paper::after { top: 51px; }
+
+    .printer-body {
+      position: absolute;
+      left: 50%;
+      top: 152px;
+      width: 224px;
+      height: 125px;
+      border-radius: 26px;
+      background: linear-gradient(145deg, #6a379d, #9e6ac5);
+      box-shadow: inset 0 -10px 0 rgba(45, 23, 68, 0.12), 0 17px 26px rgba(72, 29, 111, 0.25);
+      transform: translateX(-50%);
+    }
+
+    .printer-body::before {
+      content: "";
+      position: absolute;
+      left: 23px;
+      right: 23px;
+      top: 24px;
+      height: 44px;
+      border-radius: 14px;
+      background: #f7f0ff;
+    }
+
+    .printer-body::after {
+      content: "";
+      position: absolute;
+      right: 28px;
+      bottom: 22px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: #e1fa9d;
+      box-shadow: 0 0 0 4px rgba(225,250,157,0.18);
+    }
+
+    .scene-label {
+      position: absolute;
+      left: 26px;
+      bottom: 23px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 13px;
+      padding: 9px 12px;
+      color: #5b2c91;
+      background: rgba(255,255,255,0.9);
+      box-shadow: 0 8px 20px rgba(91,44,145,0.1);
+      font-size: 0.75rem;
+      font-weight: 800;
+    }
+
+    .section-kicker {
+      color: var(--purple-mid);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      color: var(--ink);
+      font-size: clamp(1.9rem, 4vw, 2.7rem);
+      font-weight: 800;
+      letter-spacing: -0.045em;
+      line-height: 1.15;
+    }
+
+    .service-card,
+    .price-card {
+      border: 1px solid var(--line);
+      border-radius: 25px;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 10px 28px rgba(83, 41, 123, 0.075);
+      transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+    }
+
+    .service-card:hover,
+    .price-card:hover {
+      border-color: #cda9eb;
+      box-shadow: 0 18px 38px rgba(83, 41, 123, 0.14);
+      transform: translateY(-5px);
+    }
+
+    .service-icon {
+      display: grid;
+      place-items: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 18px;
+      color: var(--purple);
+      background: #f1e4ff;
+    }
+
+    .outline-action,
+    .primary-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.55rem;
+      min-height: 46px;
+      border-radius: 14px;
+      padding: 0.7rem 1rem;
+      font-size: 0.88rem;
+      font-weight: 700;
+      transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
+    }
+
+    .primary-action {
+      color: #fff;
+      background: #5b2c91;
+      box-shadow: 0 10px 21px rgba(91, 44, 145, 0.22);
+    }
+
+    .primary-action:hover {
+      background: var(--purple-dark);
+      transform: translateY(-2px);
+    }
+
+    .outline-action {
+      border: 1px solid #d1b1eb;
+      color: var(--purple);
+      background: #fff;
+    }
+
+    .outline-action:hover {
+      background: #f7f0ff;
+      transform: translateY(-2px);
+    }
+
+    .pricing-band {
+      background:
+        radial-gradient(circle at 97% 5%, rgba(203, 161, 235, 0.33), transparent 22%),
+        #f3e9ff;
+    }
+
+    .price-head {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      border-radius: 17px;
+      padding: 1rem 1.15rem;
+      color: #fff;
+      background: linear-gradient(135deg, #5b2c91, #8955b7);
+    }
+
+    .price-head h3 {
+      margin: 0;
+      font-size: 1.18rem;
+      font-weight: 800;
+    }
+
+    .price-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.82rem 0;
+      border-bottom: 1px dashed #e9dcf7;
+    }
+
+    .price-row:last-child { border-bottom: 0; }
+
+    .price-value {
+      color: var(--purple);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      border: 1px solid #eadcf7;
+      border-radius: 16px;
+    }
+
+    .price-table {
+      width: 100%;
+      min-width: 495px;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+
+    .price-table th {
+      padding: 0.9rem 1rem;
+      color: #fff;
+      background: #6a3a9b;
+      font-weight: 700;
+    }
+
+    .price-table td {
+      padding: 0.9rem 1rem;
+      color: #4d3861;
+      border-bottom: 1px solid #eee4f9;
+    }
+
+    .price-table tr:last-child td { border-bottom: 0; }
+    .price-table td:not(:first-child) { color: var(--purple); font-weight: 800; }
+
+    .cta-panel {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #7040a0;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #4d237d, #8853b5);
+      box-shadow: 0 22px 48px rgba(83, 41, 123, 0.21);
+    }
+
+    .cta-panel::before,
+    .cta-panel::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+    }
+
+    .cta-panel::before {
+      top: -75px;
+      right: -40px;
+      width: 230px;
+      height: 230px;
+    }
+
+    .cta-panel::after {
+      bottom: -105px;
+      left: 6%;
+      width: 210px;
+      height: 210px;
+    }
+
+    .contact-panel {
+      border: 1px solid #dfc8f3;
+      border-radius: 29px;
+      background:
+        radial-gradient(circle at right top, rgba(190, 140, 227, 0.3), transparent 37%),
+        linear-gradient(135deg, #fff, #f6efff);
+      box-shadow: 0 18px 44px rgba(83, 41, 123, 0.1);
+    }
+
+    .contact-card {
+      border: 1px solid #e4d1f4;
+      border-radius: 19px;
+      background: #fff;
+      transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    }
+
+    .contact-card:hover {
+      border-color: #ae7bd4;
+      box-shadow: 0 12px 25px rgba(83, 41, 123, 0.13);
+      transform: translateY(-3px);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 600ms ease, transform 600ms ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-9px) rotate(2deg); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+  <script src="/_sdk/b3bf9e8ac58e6ad6.data_sdk.js" type="text/javascript" integrity="sha512-otc1u9NYq9Ms5Jt//7vmhrrqR5CLPr8Jdgs6741gqniClfLMcfmC+jK/cKuQdhLv6G0esJ/FzaMS9tv0T/vj/Q=="></script>
+  <script src="/_sdk/85d8138ba0e9799c.resizing_sdk.js" type="text/javascript" integrity="sha512-8dt8XK3OsxyrL/A/AlNWHjY+utLvSBcXg410ejaLzAIOVGDj1jNmEYRbymhdzToKhNo0uO9dxAmMLwHQseh3Lw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(252, 250, 255);">
+  <div class="page-shell">
+   <header class="nav-shell sticky top-0 z-50 w-full">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5 lg:px-8" aria-label="Main navigation"><a href="#home" class="flex items-center gap-3 rounded-xl focus:outline-none focus:ring-4 focus:ring-purple-200"> <img src="lm-prints-logo.png" class="canva-image h-12 w-12 rounded-xl object-cover" loading="lazy" src="images/lm-prints-logo.png" alt="LM Prints"> <span data-template-id="nav-business-name" class="canva-text text-lg font-extrabold tracking-tight" style="color: rgb(45, 23, 68); font-weight: 800; font-style: normal; font-size: 16px;">LM PRINTS</span> </a>
+     <div class="hidden items-center gap-7 md:flex"><a data-template-id="nav-home" class="canva-link nav-link" href="#home" style="color: rgb(90, 61, 114); font-weight: 700; font-style: normal; font-size: 16px;">Home</a> <a data-template-id="nav-services" class="canva-link nav-link" href="#services" style="color: rgb(90, 61, 114); font-weight: 700; font-style: normal; font-size: 16px;">Services</a> <a data-template-id="nav-prices" class="canva-link nav-link" href="#pricing" style="color: rgb(90, 61, 114); font-weight: 700; font-style: normal; font-size: 16px;">Prices</a> <a data-template-id="nav-contact" class="canva-link nav-link" href="#contact" style="color: rgb(90, 61, 114); font-weight: 700; font-style: normal; font-size: 16px;">Contact</a>
+     </div><button id="menu-toggle" type="button" class="rounded-xl p-2.5 text-purple-800 transition hover:bg-purple-100 focus:outline-none focus:ring-4 focus:ring-purple-200 md:hidden" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false"> <i data-lucide="menu" class="h-6 w-6" aria-hidden="true"></i> </button>
+    </nav>
+    <div id="mobile-menu" class="hidden border-t border-purple-100 bg-white px-5 py-4 md:hidden">
+     <div class="flex flex-col gap-1"><a data-template-id="mobile-nav-home" class="canva-link rounded-xl px-4 py-3 font-semibold text-purple-950 hover:bg-purple-50" href="#home" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">Home</a> <a data-template-id="mobile-nav-services" class="canva-link rounded-xl px-4 py-3 font-semibold text-purple-950 hover:bg-purple-50" href="#services" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">Services</a> <a data-template-id="mobile-nav-prices" class="canva-link rounded-xl px-4 py-3 font-semibold text-purple-950 hover:bg-purple-50" href="#pricing" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">Prices</a> <a data-template-id="mobile-nav-contact" class="canva-link rounded-xl px-4 py-3 font-semibold text-purple-950 hover:bg-purple-50" href="#contact" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">Contact</a>
+     </div>
+    </div>
+   </header>
+   <main>
+    <section id="home" class="hero-field w-full">
+     <div class="dot-layer absolute inset-0 opacity-40" aria-hidden="true"></div>
+     <div class="hero-orb left-[-100px] top-24 h-64 w-64 bg-purple-300 opacity-30" aria-hidden="true"></div>
+     <div class="hero-orb bottom-[-120px] right-[-80px] h-80 w-80 bg-fuchsia-300 opacity-30" aria-hidden="true"></div>
+     <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 sm:py-24 lg:grid-cols-2 lg:px-8 lg:py-28">
+      <div class="reveal max-w-2xl">
+       <div class="mb-6 flex items-center gap-3"><img src="lm-prints-logo.png" class="canva-image h-16 w-16 rounded-xl object-cover" loading="lazy" src="lm-prints-logo.png" alt="LM Prints logo with purple printer illustration">
+        <div>
+         <p data-template-id="hero-brand-name" class="canva-text text-2xl font-extrabold tracking-tight" style="color: rgb(45, 23, 68); font-weight: 800; font-style: normal; font-size: 16px;">LM PRINTS</p>
+         <p data-template-id="hero-brand-type" class="canva-text text-sm font-semibold text-purple-700" style="color: rgb(91, 44, 145); font-weight: 600; font-style: normal; font-size: 16px;">Printing Services</p>
+        </div>
+       </div>
+       <p data-template-id="hero-kicker" class="canva-text section-kicker mb-4" style="color: rgb(135, 85, 180); font-weight: 800; font-style: normal; font-size: 16px;">Fast • Friendly • Affordable</p>
+       <h1 data-template-id="hero-title" class="canva-text max-w-xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl" style="color: rgb(45, 23, 68); font-weight: 800; font-style: normal; font-size: 32px; line-height: 1.1;">Printing made easy, fast, and affordable.</h1>
+       <p data-template-id="hero-description" class="canva-text mt-5 max-w-xl text-base leading-8 text-purple-950/70 sm:text-lg" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.7;">Quality printing services for IDs, documents, photos, and laminating.</p>
+       <div class="mt-8 flex flex-col gap-3 sm:flex-row"><a data-template-id="hero-services-button" href="#services" class="canga-button primary-action focus:outline-none focus:ring-4 focus:ring-purple-300" style="background: rgb(91, 44, 145); color: rgb(255, 255, 255); font-weight: 700;"> <i data-lucide="printer" class="h-5 w-5" aria-hidden="true"></i> <span data-template-id="hero-services-button-label" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">View Our Services</span> </a> <a data-template-id="hero-prices-button" href="#pricing" class="canga-button outline-action focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgb(255, 255, 255); color: rgb(91, 44, 145); font-weight: 700;"> <i data-lucide="arrow-down" class="h-5 w-5" aria-hidden="true"></i> <span data-template-id="hero-prices-button-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 700; font-style: normal; font-size: 16px;">See Our Prices</span> </a>
+       </div>
+      </div>
+      <div class="reveal relative mx-auto w-full max-w-md lg:max-w-none">
+       <div class="printer-scene" aria-label="Illustration of a purple printer">
+        <div class="printer-paper"></div>
+        <div class="printer-body"></div>
+        <div class="scene-label"><i data-lucide="sparkles" class="h-4 w-4" aria-hidden="true"></i> <span data-template-id="hero-illustration-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">Print made simple</span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="services" class="w-full bg-[#fcfaff] px-5 py-20 sm:py-24 lg:px-8">
+     <div class="mx-auto max-w-7xl">
+      <div class="reveal mx-auto max-w-2xl text-center">
+       <p data-template-id="services-kicker" class="canga-text section-kicker mb-3" style="color: rgb(135, 85, 180); font-weight: 800; font-style: normal; font-size: 16px;">What we offer</p>
+       <h2 data-template-id="services-title" class="canga-text section-title" style="color: rgb(45, 23, 68); font-weight: 800; font-style: normal; font-size: 24px;">Our Services</h2>
+       <p data-template-id="services-description" class="canga-text mt-4 leading-7 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Simple printing help for school, work, memories, and everyday needs.</p>
+      </div>
+      <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+       <article data-template-id="service-rush-card" class="canga-card service-card reveal flex flex-col p-6" style="background: rgb(255, 255, 255);">
+        <div class="service-icon mb-5">
+         <i data-lucide="contact" class="h-7 w-7" aria-hidden="true"></i>
+        </div>
+        <h3 data-template-id="service-rush-title" class="canga-text text-lg font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 19px;">RUSH ID</h3>
+        <p data-template-id="service-rush-description" class="canga-text mt-3 text-sm leading-6 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;">Fast and affordable ID photo printing for your school, work, and other needs.</p><a data-template-id="service-rush-button" href="#rush-id-prices" class="canga-button outline-action mt-6 w-full focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgb(255, 255, 255); color: rgb(91, 44, 145); font-weight: 700;"> <i data-lucide="arrow-down" class="h-4 w-4" aria-hidden="true"></i> <span data-template-id="service-rush-button-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 700; font-style: normal; font-size: 16px;">View Prices</span> </a>
+       </article>
+       <article data-template-id="service-document-card" class="canga-card service-card reveal flex flex-col p-6" style="background: rgb(255, 255, 255);">
+        <div class="service-icon mb-5">
+         <i data-lucide="file-text" class="h-7 w-7" aria-hidden="true"></i>
+        </div>
+        <h3 data-template-id="service-document-title" class="canga-text text-lg font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 19px;">DOCUMENT PRINTING</h3>
+        <p data-template-id="service-document-description" class="canga-text mt-3 text-sm leading-6 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;">Print your important documents in different paper sizes and formats.</p><a data-template-id="service-document-button" href="#document-prices" class="canga-button outline-action mt-6 w-full focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgb(255, 255, 255); color: rgb(91, 44, 145); font-weight: 700;"> <i data-lucide="arrow-down" class="h-4 w-4" aria-hidden="true"></i> <span data-template-id="service-document-button-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 700; font-style: normal; font-size: 16px;">View Prices</span> </a>
+       </article>
+       <article data-template-id="service-photo-card" class="canga-card service-card reveal flex flex-col p-6" style="background: rgb(255, 255, 255);">
+        <div class="service-icon mb-5">
+         <i data-lucide="camera" class="h-7 w-7" aria-hidden="true"></i>
+        </div>
+        <h3 data-template-id="service-photo-title" class="canga-text text-lg font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 19px;">PHOTO PRINTING</h3>
+        <p data-template-id="service-photo-description" class="canga-text mt-3 text-sm leading-6 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;">Print your favorite photos in different sizes.</p><a data-template-id="service-photo-button" href="#photo-prices" class="canga-button outline-action mt-6 w-full focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgb(255, 255, 255); color: rgb(91, 44, 145); font-weight: 700;"> <i data-lucide="arrow-down" class="h-4 w-4" aria-hidden="true"></i> <span data-template-id="service-photo-button-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 700; font-style: normal; font-size: 16px;">View Prices</span> </a>
+       </article>
+       <article data-template-id="service-laminate-card" class="canga-card service-card reveal flex flex-col p-6" style="background: rgb(255, 255, 255);">
+        <div class="service-icon mb-5">
+         <i data-lucide="shield-check" class="h-7 w-7" aria-hidden="true"></i>
+        </div>
+        <h3 data-template-id="service-laminate-title" class="canga-text text-lg font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 19px;">LAMINATING</h3>
+        <p data-template-id="service-laminate-description" class="canga-text mt-3 text-sm leading-6 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.5;">Protect your documents and IDs with quality lamination.</p><a data-template-id="service-laminate-button" href="#laminate-prices" class="canga-button outline-action mt-6 w-full focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgb(255, 255, 255); color: rgb(91, 44, 145); font-weight: 700;"> <i data-lucide="arrow-down" class="h-4 w-4" aria-hidden="true"></i> <span data-template-id="service-laminate-button-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 700; font-style: normal; font-size: 16px;">View Prices</span> </a>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="pricing" class="pricing-band w-full px-5 py-20 sm:py-24 lg:px-8">
+     <div class="mx-auto max-w-7xl">
+      <div class="reveal mx-auto max-w-2xl text-center">
+       <p data-template-id="pricing-kicker" class="canga-text section-kicker mb-3" style="color: rgb(135, 85, 180); font-weight: 800; font-style: normal; font-size: 16px;">Simple and clear</p>
+       <h2 data-template-id="pricing-title" class="canga-text section-title" style="color: rgb(45, 23, 68); font-weight: 800; font-style: normal; font-size: 24px;">Our Prices</h2>
+       <p data-template-id="pricing-description" class="canga-text mt-4 leading-7 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Choose the service you need and check the price below.</p>
+      </div>
+      <div class="mt-12 grid gap-6 lg:grid-cols-2">
+       <article id="rush-id-prices" data-template-id="rush-price-card" class="canga-card price-card reveal p-5 sm:p-6" style="background: rgb(255, 255, 255);">
+        <div data-template-id="rush-price-heading" class="canga-banner price-head" style="background: linear-gradient(135deg, rgb(91, 44, 145), rgb(137, 85, 183));"><i data-lucide="contact" class="h-6 w-6" aria-hidden="true"></i>
+         <h3 data-template-id="rush-price-title" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 19px;">RUSH ID</h3>
+        </div>
+        <div>
+         <div class="price-row">
+          <div>
+           <p data-template-id="rush-package-1-title" class="canga-text text-sm font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 16px;">Package 1</p>
+           <p data-template-id="rush-package-1-detail" class="canga-text mt-1 text-xs leading-5 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px;">2x2 (4 pieces) • 1x1 (8 pieces)</p>
+          </div>
+          <p data-template-id="rush-package-1-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱40.00</p>
+         </div>
+         <div class="price-row">
+          <div>
+           <p data-template-id="rush-package-2-title" class="canga-text text-sm font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 16px;">Package 2</p>
+           <p data-template-id="rush-package-2-detail" class="canga-text mt-1 text-xs leading-5 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px;">2x2 (6 pieces)</p>
+          </div>
+          <p data-template-id="rush-package-2-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱30.00</p>
+         </div>
+         <div class="price-row">
+          <div>
+           <p data-template-id="rush-package-3-title" class="canga-text text-sm font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 16px;">Package 3</p>
+           <p data-template-id="rush-package-3-detail" class="canga-text mt-1 text-xs leading-5 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px;">Passport Size (6 pieces) • 1x1 (8 pieces)</p>
+          </div>
+          <p data-template-id="rush-package-3-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱50.00</p>
+         </div>
+         <div class="price-row">
+          <div>
+           <p data-template-id="rush-package-4-title" class="canga-text text-sm font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 16px;">Package 4</p>
+           <p data-template-id="rush-package-4-detail" class="canga-text mt-1 text-xs leading-5 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px;">Passport Size (4 pieces) • 2x2 (2 pieces) • 1x1 (4 pieces)</p>
+          </div>
+          <p data-template-id="rush-package-4-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱50.00</p>
+         </div>
+        </div>
+       </article>
+       <article id="document-prices" data-template-id="document-price-card" class="canga-card price-card reveal p-5 sm:p-6" style="background: rgb(255, 255, 255);">
+        <div data-template-id="document-price-heading" class="canga-banner price-head" style="background: linear-gradient(135deg, rgb(91, 44, 145), rgb(137, 85, 183));"><i data-lucide="file-text" class="h-6 w-6" aria-hidden="true"></i>
+         <h3 data-template-id="document-price-title" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 19px;">DOCUMENT PRINTING</h3>
+        </div>
+        <div class="table-scroll mt-6 self-center">
+         <table class="price-table">
+          <thead>
+           <tr>
+            <th data-template-id="document-column-type" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Type</th>
+            <th data-template-id="document-column-short" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Short</th>
+            <th data-template-id="document-column-a4" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">A4</th>
+            <th data-template-id="document-column-long" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Long</th>
+           </tr>
+          </thead>
+          <tbody>
+           <tr>
+            <td data-template-id="document-text-only" class="canga-text" style="color: rgb(77, 56, 97); font-weight: 600; font-style: normal; font-size: 16px;">TEXT ONLY</td>
+            <td data-template-id="document-text-only-short" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱3.00</td>
+            <td data-template-id="document-text-only-a4" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱3.00</td>
+            <td data-template-id="document-text-only-long" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱3.00</td>
+           </tr>
+           <tr>
+            <td data-template-id="document-text-image" class="canga-text" style="color: rgb(77, 56, 97); font-weight: 600; font-style: normal; font-size: 16px;">TEXT &amp; IMAGE</td>
+            <td data-template-id="document-text-image-short" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱5.00</td>
+            <td data-template-id="document-text-image-a4" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱5.00</td>
+            <td data-template-id="document-text-image-long" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱7.00</td>
+           </tr>
+           <tr>
+            <td data-template-id="document-image-only" class="canga-text" style="color: rgb(77, 56, 97); font-weight: 600; font-style: normal; font-size: 16px;">IMAGE ONLY</td>
+            <td data-template-id="document-image-only-short" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱10.00</td>
+            <td data-template-id="document-image-only-a4" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱10.00</td>
+            <td data-template-id="document-image-only-long" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱12.00</td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </article>
+       <article id="photo-prices" data-template-id="photo-price-card" class="canga-card price-card reveal p-5 sm:p-6" style="background: rgb(255, 255, 255);">
+        <div data-template-id="photo-price-heading" class="canga-banner price-head" style="background: linear-gradient(135deg, rgb(91, 44, 145), rgb(137, 85, 183));"><i data-lucide="image" class="h-6 w-6" aria-hidden="true"></i>
+         <h3 data-template-id="photo-price-title" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 19px;">PHOTO PRINT</h3>
+        </div>
+        <div>
+         <div class="price-row">
+          <p data-template-id="photo-a4-size" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">A4</p>
+          <p data-template-id="photo-a4-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱50.00</p>
+         </div>
+         <div class="price-row">
+          <p data-template-id="photo-6r-size" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">6R</p>
+          <p data-template-id="photo-6r-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱30.00</p>
+         </div>
+         <div class="price-row">
+          <p data-template-id="photo-5r-size" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">5R</p>
+          <p data-template-id="photo-5r-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱25.00</p>
+         </div>
+         <div class="price-row">
+          <p data-template-id="photo-4r-size" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">4R</p>
+          <p data-template-id="photo-4r-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱15.00</p>
+         </div>
+         <div class="price-row">
+          <p data-template-id="photo-3r-size" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">3R</p>
+          <p data-template-id="photo-3r-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱10.00</p>
+         </div>
+        </div>
+       </article>
+       <article id="laminate-prices" data-template-id="laminate-price-card" class="canga-card price-card reveal p-5 sm:p-6" style="background: rgb(255, 255, 255);">
+        <div data-template-id="laminate-price-heading" class="canga-banner price-head" style="background: linear-gradient(135deg, rgb(91, 44, 145), rgb(137, 85, 183));"><i data-lucide="shield-check" class="h-6 w-6" aria-hidden="true"></i>
+         <h3 data-template-id="laminate-price-title" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 19px;">LAMINATE</h3>
+        </div>
+        <div>
+         <div class="price-row">
+          <div>
+           <p data-template-id="laminate-a4-name" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">A4</p>
+           <p data-template-id="laminate-a4-detail" class="canga-text mt-1 text-xs text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px;">125 microns</p>
+          </div>
+          <p data-template-id="laminate-a4-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱30.00</p>
+         </div>
+         <div class="price-row">
+          <div>
+           <p data-template-id="laminate-id-name" class="canga-text text-sm font-semibold" style="color: rgb(45, 23, 68); font-weight: 600; font-style: normal; font-size: 16px;">ID CARD SIZE</p>
+           <p data-template-id="laminate-id-detail" class="canga-text mt-1 text-xs text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px;">125 microns</p>
+          </div>
+          <p data-template-id="laminate-id-price" class="canga-text price-value" style="color: rgb(91, 44, 145); font-weight: 800; font-style: normal; font-size: 16px;">₱15.00</p>
+         </div>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section class="w-full bg-[#fcfaff] px-5 py-20 sm:py-24 lg:px-8">
+     <div data-template-id="cta-panel" class="canga-panel cta-panel reveal mx-auto max-w-6xl px-6 py-12 text-center sm:px-12" style="background: linear-gradient(135deg, rgb(77, 35, 125), rgb(136, 83, 181));">
+      <div class="relative z-10"><i data-lucide="printer" class="mx-auto mb-5 h-10 w-10 text-purple-100" aria-hidden="true"></i>
+       <h2 data-template-id="cta-title" class="canga-text text-3xl font-extrabold tracking-tight text-white sm:text-4xl" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 24px;">Need Quality Printing?</h2>
+       <p data-template-id="cta-description" class="canga-text mx-auto mt-4 max-w-xl leading-7 text-purple-100" style="color: rgb(243, 233, 255); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">We're ready to help with your IDs, documents, photos, and laminating needs.</p>
+       <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row"><a data-template-id="cta-contact-button" href="#contact" class="canga-button inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-white px-6 py-3 font-bold text-purple-800 transition hover:-translate-y-0.5 hover:bg-purple-50 focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgb(255, 255, 255); color: rgb(91, 44, 145); font-weight: 700;"> <i data-lucide="mail" class="h-5 w-5" aria-hidden="true"></i> <span data-template-id="cta-contact-button-label" class="canga-text" style="color: rgb(91, 44, 145); font-weight: 700; font-style: normal; font-size: 16px;">Contact Us</span> </a> <a data-template-id="cta-facebook-button" href="https://www.facebook.com/profile.php?id=61594041388240" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank', 'noopener,noreferrer'); return false;" class="canga-button inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-white/45 bg-white/10 px-6 py-3 font-bold text-white transition hover:-translate-y-0.5 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-purple-200" style="background: rgba(255, 255, 255, 0.098); color: rgb(255, 255, 255); font-weight: 700;"> <i data-lucide="facebook" class="h-5 w-5" aria-hidden="true"></i> <span data-template-id="cta-facebook-button-label" class="canga-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">View Facebook Page</span> </a>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="contact" class="w-full bg-[#f3e9ff] px-5 py-20 sm:py-24 lg:px-8">
+     <div data-template-id="contact-panel" class="canga-panel contact-panel reveal mx-auto max-w-5xl px-6 py-12 text-center sm:px-12" style="background: linear-gradient(135deg, rgb(255, 255, 255), rgb(246, 239, 255));">
+      <p data-template-id="contact-kicker" class="canga-text section-kicker mb-3" style="color: rgb(135, 85, 180); font-weight: 800; font-style: normal; font-size: 16px;">Let's connect</p>
+      <h2 data-template-id="contact-title" class="canga-text section-title" style="color: rgb(45, 23, 68); font-weight: 800; font-style: normal; font-size: 24px;">Get in Touch</h2>
+      <p data-template-id="contact-description" class="canga-text mx-auto mt-4 max-w-xl leading-7 text-purple-950/65" style="color: rgb(77, 56, 97); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Message or email us if you have questions about our printing services.</p>
+      <div class="mx-auto mt-9 grid max-w-2xl gap-4 sm:grid-cols-2"><a data-template-id="contact-facebook-card" class="canga-button contact-card flex min-h-32 flex-col items-center justify-center gap-2 p-5 text-purple-950 focus:outline-none focus:ring-4 focus:ring-purple-200" href="https://www.facebook.com/profile.php?id=61594041388240" target="_blank" rel="noopener noreferrer" style="background: rgb(255, 255, 255); color: rgb(45, 23, 68);"> <i data-lucide="facebook" class="h-7 w-7 text-purple-700" aria-hidden="true"></i> <span data-template-id="contact-facebook-label" class="canga-text font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 16px;">Facebook</span> <span data-template-id="contact-facebook-value" class="canga-text text-sm text-purple-800/70" style="color: rgb(91, 44, 145); font-weight: 400; font-style: normal; font-size: 16px;">LM Prints</span> </a> <a data-template-id="contact-email-card" class="canga-button contact-card flex min-h-32 flex-col items-center justify-center gap-2 p-5 text-purple-950 focus:outline-none focus:ring-4 focus:ring-purple-200" href="mailto:hello.lmprints@gmail.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;" style="background: rgb(255, 255, 255); color: rgb(45, 23, 68);"> <i data-lucide="mail" class="h-7 w-7 text-purple-700" aria-hidden="true"></i> <span data-template-id="contact-email-label" class="canga-text font-bold" style="color: rgb(45, 23, 68); font-weight: 700; font-style: normal; font-size: 16px;">Email</span> <span data-template-id="contact-email-value" class="canga-text text-sm text-purple-800/70" style="color: rgb(91, 44, 145); font-weight: 400; font-style: normal; font-size: 16px;">hello.lmprints@gmail.com</span> </a>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer data-template-id="footer-section" class="canga-footer w-full bg-[#321751] px-5 py-10 text-white lg:px-8" style="background: rgb(50, 23, 81);">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-7 text-center md:flex-row md:text-left">
+     <div>
+      <p data-template-id="footer-name" class="canga-text text-xl font-extrabold" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 16px;">LM PRINTS</p>
+      <p data-template-id="footer-type" class="canga-text mt-1 text-sm text-purple-200" style="color: rgb(221, 208, 237); font-weight: 400; font-style: normal; font-size: 16px;">Printing Services</p>
+      <p data-template-id="footer-services" class="canga-text mt-2 text-sm font-medium text-white" style="color: rgb(255, 255, 255); font-weight: 500; font-style: normal; font-size: 16px;">Rush ID • Document Printing • Photo Print • Laminate</p>
+     </div>
+     <div class="flex flex-col items-center gap-4 md:items-end">
+      <div class="flex gap-3"><a data-template-id="footer-facebook-link" class="canga-link grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-purple-300" href="https://www.facebook.com/profile.php?id=61594041388240" target="_blank" rel="noopener noreferrer" aria-label="Visit LM Prints on Facebook" style="background: rgba(255, 255, 255, 0.098); color: rgb(255, 255, 255);"> <i data-lucide="facebook" class="h-5 w-5" aria-hidden="true"></i> </a> <a data-template-id="footer-email-link" class="canga-link grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-purple-300" href="mailto:hello.lmprints@gmail.com" aria-label="Email LM Prints" style="background: rgba(255, 255, 255, 0.098); color: rgb(255, 255, 255);"> <i data-lucide="mail" class="h-5 w-5" aria-hidden="true"></i> </a>
+      </div>
+      <p data-template-id="footer-copyright" class="canga-text text-xs text-purple-200" style="color: rgb(221, 208, 237); font-weight: 400; font-style: normal; font-size: 12px;">© 2026 LM Prints. All rights reserved.</p>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script src="/_sdk/0b5911494a4ff060.editing_sdk.js" integrity="sha512-/vyQ+jNH4Q/uooDsnMcX6o3IxIcmA7RW0TJmBR88seymBCMyLn9QjvQ8qpBP5hx5JmcAoEFUTuGK9amUMyPFpA=="></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      lucide.createIcons();
+
+      const toggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("mobile-menu");
+      const menuLinks = menu.querySelectorAll("a");
+
+      toggle.addEventListener("click", function () {
+        const isOpen = !menu.classList.contains("hidden");
+        menu.classList.toggle("hidden", isOpen);
+        toggle.setAttribute("aria-expanded", String(!isOpen));
+        toggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+      });
+
+      menuLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+          menu.classList.add("hidden");
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "Open navigation menu");
+        });
+      });
+
+      const revealItems = document.querySelectorAll(".reveal");
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      revealItems.forEach(function (item) {
+        observer.observe(item);
+      });
+    });
+  </script>
+ 
+</body></html>
